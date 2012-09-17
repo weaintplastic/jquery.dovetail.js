@@ -5,7 +5,7 @@ A jquery plugin for cross-browser media-fitting like "fit", "crop" and "letterbo
 
 ##Usage
 
-You can use *jquery.dovetail.js* on any DOM element using the ```width``` and ```height``` attribute like ```img```, ```iframe```, ```object```, ```video```
+You can use *jquery.dovetail.js* on any DOM element like ```img```, ```iframe```, ```object```, ```video``` using the ```width``` and ```height``` attribute
 
 
 ###HTML Markup
