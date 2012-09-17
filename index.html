@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Jquery Dovetail</title>
+		
+		<!-- META DATA -->
+		<meta charset="utf-8"/>
+		
+		<!-- JAVASCRIPT -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+		<script type="text/javascript" src="src/min/jquery.dovetail.min.js"></script>
+	
+		
+		<script>
+			
+			$(function(){
+				
+				$('.dovetail-crop').dovetail({ mode: 'crop' });
+				$('.dovetail-letterbox').dovetail({ mode: 'letterbox' });
+				$('.dovetail-fit').dovetail({ mode: 'fit' });
+				
+			});
+			
+		</script>
+		
+		<style type="text/css">
+			
+			body,html{
+				margin:		0;
+			}
+			
+			.section{
+				height:		600px;
+				margin:		20px;
+				background: #000;
+			}
+			
+		</style>
+		
+	</head>
+	
+	<body>
+		
+		<!-- Images -->
+		<div class="section">
+			<img class="dovetail-crop" src="http://placehold.it/1024x768" width="1024" height="768" />
+		</div>
+		<div class="section">
+			<img class="dovetail-letterbox" src="http://placehold.it/1024x768" width="1024" height="768" />
+		</div>
+		<div class="section">
+			<img class="dovetail-fit" src="http://placehold.it/1024x768" width="1024" height="768" />
+		</div>
+		
+		<!-- iFrames -->
+		<div class="section">
+			<iframe class="dovetail-crop" width="1280" height="720" src="http://www.youtube.com/embed/lG5aSZBAuPs?controls=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="section">
+			<iframe class="dovetail-letterbox" width="1280" height="720" src="http://www.youtube.com/embed/lG5aSZBAuPs?controls=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="section">
+			<iframe class="dovetail-fit" width="1280" height="720" src="http://www.youtube.com/embed/lG5aSZBAuPs?controls=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+		
+		
+		
+		
+	</body>
+	
+</html>
