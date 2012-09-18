@@ -1,7 +1,7 @@
 jquery.dovetail.js
 ==================
 
-A jquery plugin for cross-browser media-fitting like "fit", "crop" and "letterbox"
+A jquery plugin for cross-browser media-fitting like "fit", "crop" and "letterbox". For a full overview check out the [examples page](http://weaintplastic.github.com/jquery.dovetail.js/)
 
 ##Usage
 
